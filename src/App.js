@@ -2,7 +2,7 @@ import React from "react";
 function App() {
   return (
     <div className="container ">
-      <form>
+      <form> 
           <div class="mb-3">
           <label for="nom" class="form-label">Nom</label><br/>
             <input type="text" class="form-control-md" id="nom" aria-describedby=""/><br/>
@@ -91,14 +91,8 @@ function App() {
               <option value="2018">2018</option>
               <option value="2019">2019</option>
               <option value="2020">2020</option>
-              
-                
             </select>
-
             <br/>
-
-          
-           
           </div>
           <button type="submit" class="btn btn-primary">Envoyer</button>
       </form>
